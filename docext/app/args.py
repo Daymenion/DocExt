@@ -10,7 +10,7 @@ def parse_args():
     parser.add_argument(
         "--vlm_server_port",
         type=int,
-        default=8000,
+        default=6013,
         help="Port for the vLLM/OLLAMA server",
     )
     parser.add_argument(
@@ -53,7 +53,7 @@ def parse_args():
     parser.add_argument(
         "--vllm_start_timeout",
         type=int,
-        default=300,
+        default=800,
         help="Timeout for the vLLM server to start.",
     )
     parser.add_argument(
